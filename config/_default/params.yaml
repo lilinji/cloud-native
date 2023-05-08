@@ -1,0 +1,103 @@
+# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+
+appearance:
+  theme_day: my_theme
+  theme_night: my_theme
+  font: minimal
+  font_size: M
+
+# SEO
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: '云原生社区'
+    description: '一站式云原生资料库'
+    twitter: 'jimmysongio'
+  analytics:
+    google_analytics: 'G-MP490FS739'
+    baidu_tongji: '2a4b7f65b1839466beaa48d633aa60c1'
+  adsense:
+    enable: true
+    client: 'ca-pub-4029167986768912'
+    slot: '6856371908'
+  verification:
+    google: 'google69a5cccb61297807'
+    baidu: 'cqmZHEleVh'
+
+# Site header
+
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    show_search: true
+    show_github: true
+    show_home: true
+    highlight_active_link: true
+    home: "https://jimmysong.io"
+
+footer:
+  copyright:
+    notice: '© 2017-2023 jimmysong.io all rights reserved'
+    license:
+      enable: false
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+# Localization
+
+locale:
+  date_format: '2006-01-02'
+  time_format: '下午 3:04'
+
+# Publication
+
+publications:
+  date_format: '2006-01-02'
+
+# Site features
+
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/rootsongjc/cloud-native-library/'
+    content_dir: content
+    branch: master
+  comment:
+    provider: 'giscus'
+    disqus:
+      shortname: ''
+      show_count: true
+    giscus:
+      repo: 'rootsongjc/cloud-native-library'
+      repo_id: 'MDEwOlJlcG9zaXRvcnkyMTQ2MjY2NDg='
+      category_id: 'DIC_kwDODMrxWM4CPL7J'
+      reaction_enabled: '1'
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: 'CRNDR5CNMU'
+      api_key: 'd7f7189aef2be4e5be6a6b9f44897f61'
+      index_name: 'DocSearch'
+      show_logo: true
+reading_time: true
+section_pager: true
+subscribe:
+  enable: true

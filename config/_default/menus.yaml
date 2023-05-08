@@ -1,0 +1,40 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: 图书
+    url: '#books'
+    identifier: books
+    weight: 30
+  - name: 教程
+    identifier: handbook
+    weight: 31
+  - name: Istio 基础教程
+    parent: handbook
+    weight: 2
+    url: "https://academy.tetrate.io/courses/istio-fundamentals-zh"
+  - name: Envoy 基础教程
+    parent: handbook
+    weight: 3
+    url: "https://academy.tetrate.io/courses/envoy-fundamentals-zh"
+  - name: Kubernetes 基础教程
+    parent: handbook
+    weight: 1
+    url: "kubernetes-handbook"
+  - name: 译文
+    url: blog
+    weight: 35
+  - name: 更新
+    url: '#feed'
+    weight: 60
+  - name: Jimmy Song
+    url: "https://jimmysong.io"
+    weight: 80
+  - name: 标签
+    url: "#tags"
+    weight: 65
+  - name: 关于
+    url: "#about"
+    weight: 70
